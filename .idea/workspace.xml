@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b17a1c3-c613-4009-a3a3-418a73ca5dc6" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StringReplacer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StringReplacer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="735">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilePlaceholderReplacer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/FilePlaceholderReplacer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -56,6 +66,7 @@
         <option value="$PROJECT_DIR$/src/StringReplacer.java" />
         <option value="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacerTest.java" />
         <option value="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacer.java" />
+        <option value="$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/FilePlaceholderReplacer.java" />
       </list>
     </option>
   </component>
@@ -138,7 +149,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StringReplacerTest.basicTests">
+  <component name="RunManager" selected="Application.FilePlaceholderReplacer">
+    <configuration name="FilePlaceholderReplacer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uni.sofia.bg.fmi.Replacers.FilePlaceholderReplacer" />
+      <module name="File-Placeholder-Replacer" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uni.sofia.bg.fmi.Replacers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="StringReplacer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="uni.sofia.bg.fmi.Replacers.StringReplacer" />
       <module name="File-Placeholder-Replacer" />
@@ -217,9 +239,11 @@
     <list>
       <item itemvalue="JUnit.StringReplacerTest.basicTests" />
       <item itemvalue="Application.StringReplacer" />
+      <item itemvalue="Application.FilePlaceholderReplacer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilePlaceholderReplacer" />
         <item itemvalue="JUnit.StringReplacerTest.basicTests" />
         <item itemvalue="Application.StringReplacer" />
       </list>
@@ -235,14 +259,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523878989212</updated>
-      <workItem from="1523878993897" duration="3720000" />
+      <workItem from="1523878993897" duration="5101000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringReplacerTest_basicTests - 2018.04.16 at 15h 11m 17s.xml">
-      <configuration name="StringReplacerTest.basicTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="StringReplacerTest_basicTests - 2018.04.16 at 15h 11m 32s.xml">
       <configuration name="StringReplacerTest.basicTests" configurationId="JUnit" />
     </history-entry>
@@ -270,9 +291,12 @@
     <history-entry file="StringReplacerTest_basicTests - 2018.04.16 at 15h 41m 31s.xml">
       <configuration name="StringReplacerTest.basicTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StringReplacerTest_basicTests - 2018.04.16 at 15h 47m 26s.xml">
+      <configuration name="StringReplacerTest.basicTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3720000" />
+    <option name="totallyTimeSpent" value="5101000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -332,8 +356,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/StringReplacer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="735">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/uni/sofia/bg/fmi/Replacers/FilePlaceholderReplacer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
