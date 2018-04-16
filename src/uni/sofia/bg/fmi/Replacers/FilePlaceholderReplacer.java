@@ -26,10 +26,4 @@ public class FilePlaceholderReplacer {
 
     }
 
-    public static void main(String[] args) {
-
-        FilePlaceholderReplacer.replace("a.txt", "asd.txt", Map.of("name", "Valentin", "second", "Yuliana"));
-
-    }
-
 }
