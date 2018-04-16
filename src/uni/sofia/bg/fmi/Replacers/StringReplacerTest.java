@@ -17,6 +17,9 @@ public class StringReplacerTest {
         assertEquals("Basic test2: replacing a word not in the map", "Hello, {Name}", replace("Hello, {Name}", Map.of("name", "Valentin")));
         assertEquals("Basic test3: replacing 2 words", "Hello, Valentin Yordanov", replace("Hello, {name} {SecondName}", Map.of("name", "Valentin", "SecondName", "Yordanov")));
         assertEquals("Basic test4: replacing 2 words, 1 in the map & 1 not", "Hello, {Name} Yordanov", replace("Hello, {Name} {SecondName}", Map.of("name", "Valentin", "SecondName", "Yordanov")));
+        assertEquals("Basic test5: replacing 2 words, 1 not in the map & 1 in", "Hello, {Name}Yordanov", replace("Hello, {Name}{SecondName}", Map.of("name", "Valentin", "SecondName", "Yordanov")));
+        assertEquals("Basic test6: replacing 2 words, 2 not in map", "Hello, {Name}{SecondName}", replace("Hello, {Name}{SecondName}", Map.of("name", "Valentin", "secondName", "Yordanov")));
+
 
     }
 

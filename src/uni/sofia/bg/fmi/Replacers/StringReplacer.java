@@ -27,6 +27,7 @@ public class StringReplacer {
                     try {
                         result.replace(tempBegin, i, mapOfWords.get(word));
                     } catch (NullPointerException ex) {
+                        i--;
                         continue;
                     }
                     i = result.indexOf(mapOfWords.get(word)) + mapOfWords.get(word).length() - 1;
