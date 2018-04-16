@@ -18,18 +18,18 @@ public class StringReplacer {
                 String word = "";
 
                 while (result.charAt(i) != '}' && i < result.length()) {
-
                     word += result.charAt(i);
                     i++;
                 }
 
                 if (result.charAt(i) == '}') {
                     i++;
-                   try {
-                       result.replace(tempBegin, i, mapOfWords.get(word));
-                   } catch (NullPointerException ex) {
-
-                   }
+                    try {
+                        result.replace(tempBegin, i, mapOfWords.get(word));
+                    } catch (NullPointerException ex) {
+                        continue;
+                    }
+                    i = result.indexOf(mapOfWords.get(word)) + mapOfWords.get(word).length() - 1;
                 }
 
             }
@@ -37,14 +37,6 @@ public class StringReplacer {
         }
 
         return result.toString();
-    }
-
-    public static void main(String[] args) {
-
-        System.out.println(StringReplacer.replace("Hello, {namE}", Map.of("name", "valentin")));
-        StringBuilder a = new StringBuilder("Hello");
-       // System.out.println(a.replace(1, 4, "zdr"));
-
     }
 
 }
